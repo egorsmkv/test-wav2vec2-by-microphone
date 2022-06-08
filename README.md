@@ -11,10 +11,10 @@ Install Python requirements:
 ### Linux
 
 ```bash
-# the author has successfully tested the project with wave=0.0.2, torch==1.11.0, torchaudio==0.11.0, sox==1.4.1, and pyaudio==0.2.11 pyctcdecode==0.3.0
+# the author has successfully tested the project with wave=0.0.2, torch==1.11.0, torchaudio==0.11.0, sox==1.4.1, and pyaudio==0.2.11 pyctcdecode==0.3.0 transformers==4.19.2
 
 pip install https://github.com/kpu/kenlm/archive/master.zip
-pip install wave torch torchaudio pyaudio sox pyctcdecode
+pip install wave torch torchaudio pyaudio sox pyctcdecode transformers
 ```
 
 ### MacOS
@@ -23,7 +23,7 @@ pip install wave torch torchaudio pyaudio sox pyctcdecode
 brew install portaudio sox
 
 pip install https://github.com/kpu/kenlm/archive/master.zip
-pip install wave pyctcdecode
+pip install wave pyctcdecode transformers
 pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio
 ```
 
