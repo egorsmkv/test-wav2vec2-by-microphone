@@ -4,6 +4,10 @@
 
 This repository contains code of a script that recognizes your speech using wav2vec2 models.
 
+## Demo
+
+<img src="./demo.png" width="200">
+
 ## Installation
 
 Install Python requirements:
