@@ -53,7 +53,7 @@ pip3 install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar
 ## Running
 
 ```bash
-# Run the loop (this script will record speech and save it into the speech/ folder)
+# Run the loop (this script will record speech and recognizes it)
 # Use Ctrl-C to stop the script
 python run.py --model_id Yehor/wav2vec2-xls-r-300m-uk-with-small-lm --record_seconds 15
 ```
