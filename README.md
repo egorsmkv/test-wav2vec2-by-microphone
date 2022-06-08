@@ -6,7 +6,7 @@ This repository contains code of a script that recognizes your speech using wav2
 
 ## Demo
 
-<img src="./demo.png" width="200">
+<img src="./demo.png">
 
 ## Installation
 
