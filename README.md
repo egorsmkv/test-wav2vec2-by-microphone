@@ -10,6 +10,13 @@ This repository contains code of a script that recognizes your speech using wav2
 
 ## Installation
 
+Clone this repository:
+
+```bash
+git clone https://github.com/egorsmkv/test-wav2vec2-by-microphone
+cd test-wav2vec2-by-microphone
+```
+
 Install Python requirements:
 
 ### Linux
